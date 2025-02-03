@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Erika ❤️</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffebf0;
+            text-align: center;
+            padding-top: 50px;
+            overflow-y: auto;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+        }
+        h1 {
+            color: #d63384;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .heart {
+            color: red;
+            font-size: 50px;
+            position: absolute;
+            animation: floatUp 4s infinite;
+        }
+        @keyframes floatUp {
+            0% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(-200px); opacity: 0; }
+        }
+        .love-message {
+            font-size: 1.5rem;
+            font-weight: bold;
+            opacity: 0;
+            animation: fadeIn 3s forwards;
+            margin-top: 20px;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .love-letter {
+            margin-top: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .love-letter:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        .image-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .image-container img {
+            width: 35%;
+            max-width: 350px;
+            height: 450px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+        .bear {
+        position: absolute;
+        bottom: 10px; /* Lebih rendah supaya tidak menghalangi teks */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 150px;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+        z-index: 10; /* Supaya tidak menutupi elemen penting */
+    }
+
+        #hidden-message {
+            margin-bottom: 80px; /* Memberikan ruang ekstra agar tidak tertutup */
+        }
+
+        .bear:hover {
+            transform: scale(1.2) translateX(-50%);
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .love-message {
+                font-size: 1.2rem;
+            }
+            .image-container img {
+                width: 90%;
+                height: auto;
+            }
+        }
+        @media (max-width: 480px) {
+            .love-letter {
+                padding: 15px;
+                font-size: 0.9rem;
+            }
+            .heart {
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Untuk Erika ❤️</h1>
+    <p class="love-message">Ubur-ubur ikan lele, singkat banget lee.</p>
+    <div class="love-letter" onclick="showMessage()">
+        mau tau critanya? coba klik deh 👈
+    </div>
+    <div class="image-container">
+        <img src="1.jpg" alt="Kenangan Bersama">
+        <img src="2.jpg" alt="Momen Spesial">
+    </div>
+    <p id="hidden-message" class="mt-3" style="display: none; font-size: 20px; color: #d63384;">
+        Hai kenalin nama aku Yesman, Cowo yang pengen kamutuh jadi pacarnya tauu. 
+        <br>kamu inget ga pas pertama kali kita di Kopi Nako, itu kali pertama aku ngedate sama stranger loh. aku sih berangkat dari rumah deg' ser gtu wkwkwk. klo kamu gimanaa??
+        terus pas ngbrol akutuh sengaja duduk bersebrangan soalnya kan aku harus liat' dlu nih sblum aku sriusin hehehe.
+        ternyata kamu cantik aslinya. ohya aku braniin diri buat cium tangan kamu tuh biar aku ga deg'an wkwkwk walaupun freak yee dan ada kemungkinan kena tampol 🤣. sepulang dari nako aku crita diketawain anjrrr.
+        trus kamu inget ga klo aku dstu bilang keknya ini bukan pertemuan yang cuman sekali deh xixixixi. eh malah lanjutt brarti kamu tau kan artinya apaa??
+        <br>trus moment yang kita nonton inget gaa?? sumpah pas "i kiss your forehead is my happiness" dan pas kamu senderan juga di moment yang lagi nonton itu aku ngerasa tenangg bangett gilakk.
+        <br>nah ini kamu pasti penasaran deh kenapa aku slalu ngehubungin kamu yakannn??😋😋
+        aku ngerasa kalo aku keknya udah jatuh hati deh sama sosok erika cmn gatau deh orgnya percaya apa ngga yaa 🤔🤔. dan kamu pasti kepo aku jatuh hati pas di moment apa yakannn??😋😋
+        <br>kamu inget ga pas kita pecel lelean tpi kita berdua makan ayam. di moment itu kamu ngelapin sendok dan garpu buat aku. itu mungkin hal kecil buat kamu tpi pas itu aku baper anjrrlaaa. ketua tumbang lee hahaa
+        <br>aku seneng bisa kiss pipi kamu dan kamu tau ga?? aku juga seneng kamu kiss pipi akuu, apalagi klo tiba' ngekiss gtu 🥰🥰
+        <br>aku belum pernah serius sama cewe tpi klo ini sih mungkin aku sdikit lebih serius. buktinya aku belajar motor kopling itu karna kamu, awalnya aku emg ga pernah coba kopling tapi pas tau mtr kmu kopling aku semangat buat nyobain dann coba kerja biar bisa jajanin si erika wkwkwk walaupun kerjanya ga bertahan lama bjirr 😌😌 
+        <br>maaf ya klo kamu ngeliat chatan aku sama ex jelek dan kamu ngerasa direndahin sama aku. aku tau klo kamu pasti kecewa makanya awal aku ga mau tunjukin, dan akhirnya aku putusin untuk tunjukin biar kamu tau dari aku bukan dari orang lain. jujur aku juga takut sama kayak kamu. aku ga mau hati aku jatuh ke org yang hatinya ditebar ke banyak orang "eh aku ngomong gini aku harap kamu ngerti yaa🤗"
+        semakin lama aku kenal kamu, aku seneng kamu baik dan menyenangkan. kamu perlahan udah bisa terbuka sama aku. aku harap kamu beneran sayang sama aku 😉. 
+        honestly aku sampe sekarang masi menginginkan sosok erika sekali lagi tapi keknya udh gabisa deh. dianya udh kecewa banget soalnya 😞. kecuali dia tiba' ngasih sinyal ijo yang nyuruh gw untuk dapetin dia sekali lagii. 
+        <br>hmm klo emg udah gabisa yaudah le mau gimana lagi. aku cmn mau kasi "first experience" buat kamu nih. yaitu ya gini ngoding buat kamu, aku harap si ini blum pernah kamu alamin yee wkwkwk    
+    </p>
+
+    <!-- Beruang Interaktif -->
+    <img src="3.png" alt="Beruang Lucu" class="bear" onclick="bearDance()">
+
+    <script>
+        function showMessage() {
+            document.getElementById('hidden-message').style.display = 'block';
+        }
+        function createHeart() {
+            const heart = document.createElement("div");
+            heart.innerHTML = "❤️";
+            heart.classList.add("heart");
+            document.body.appendChild(heart);
+            heart.style.left = Math.random() * 100 + "vw";
+            heart.style.top = "100vh";
+            heart.style.animationDuration = Math.random() * 2 + 3 + "s";
+            setTimeout(() => heart.remove(), 4000);
+        }
+        setInterval(createHeart, 500);
+
+        // Fungsi untuk animasi beruang
+        function bearDance() {
+            const bear = document.querySelector('.bear');
+            bear.style.transform = 'translateX(-50%) rotate(360deg)';
+            setTimeout(() => {
+                bear.style.transform = 'translateX(-50%)';
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
